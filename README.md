@@ -5,12 +5,21 @@ __texto formatado em italico__
 
 ![Rust Lang Logo](./rust-logo.png)
 ## Programa Olá, Mundo! escrito em Rust:
-```
+```rust
 fn main() {
 	println!("Olá, Mundo!");
 }
 ```
 [site da linguagem Rust](https://www.rust-lang.org/)
+
+![Pony Lang Logo](./ponylang-logo.png)
+## Programa Olá, Mundo! escrito em Pony:
+```pony
+actor Main
+	new create(env: Env) =>
+		env.out.print("Olá, Mundo!")
+```
+[site da linguagem Pony](https://www.ponylang.io/)
 
 ### Exemplo de lista não ordenada:
 * primeiro item.
