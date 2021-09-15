@@ -1,6 +1,8 @@
 # README do respositório
 texto sem formatação
+
 __texto formatado em italico__
+
 **texto formatado em negrito**
 
 ![Rust Lang Logo](./rust-logo.png)
@@ -16,10 +18,17 @@ fn main() {
 ## Programa Olá, Mundo! escrito em Pony:
 ```pony
 actor Main
-	new create(env: Env) =>
-		env.out.print("Olá, Mundo!")
+  new create(env: Env) =>
+    env.out.print("Olá, Mundo!")
 ```
 [site da linguagem Pony](https://www.ponylang.io/)
+
+![OCaml Logo](./ocaml-logo.png)
+## Programa Olá, Mundo! escrito em OCaml:
+```ocaml
+let () = print_endline "Olá, Mundo!"
+```
+[site da linguagem OCaml](https://www.ocaml.org/)
 
 ### Exemplo de lista não ordenada:
 * primeiro item.
